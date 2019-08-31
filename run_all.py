@@ -2,7 +2,7 @@ from common import HTMLTestRunner_cn
 import unittest
 import time
 
-casepath = "C:\\Users\\Admin\\.PyCharm50\\webAuto\\"
+casepath = "D:\\soft\\ruirui\\workspace\\zentao\\"
 #discover 可以加载多个用例
 
 discover = unittest.defaultTestLoader.discover(start_dir=casepath,
@@ -11,7 +11,7 @@ discover = unittest.defaultTestLoader.discover(start_dir=casepath,
 print(discover)
 
 now = time.strftime("%Y_%m_%d_%H_%M_%S")
-filename = "C:\\Users\\Admin\\.PyCharm50\\webAuto\\report\\"+now+"report.html"
+filename = "D:\\soft\\ruirui\\workspace\\zentao\\report\\"+now+"report.html"
 
 fp = open(filename, "wb")
 
