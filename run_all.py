@@ -10,8 +10,8 @@ discover = unittest.defaultTestLoader.discover(start_dir=casepath,
                                                top_level_dir=None)
 print(discover)
 
-now = time.strftime("%Y_%m_%d_%H_%M_%S")
-filename = "D:\\soft\\ruirui\\workspace\\zentao\\report\\"+now+"report.html"
+# now = time.strftime("%Y_%m_%d_%H_%M_%S")
+filename = "D:\\soft\\ruirui\\workspace\\zentao\\report\\"+"report.html"
 
 fp = open(filename, "wb")
 
